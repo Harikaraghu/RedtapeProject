@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="scripts.TC04Test">
+        <methods>
+          <include name="RedTapeCartPageTest"/>
+          <include name="afterClass"/>
+          <include name="Report"/>
+          <include name="MethodGetName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC04Test -->
+      <class name="scripts.TC06Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="RedTapeProductsPage2Test"/>
+          <include name="Report"/>
+          <include name="MethodGetName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC06Test -->
+      <class name="scripts.TC02Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="redtapeHomePageTest"/>
+          <include name="Report"/>
+          <include name="MethodGetName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC02Test -->
+      <class name="scripts.TC01Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="redtapeloginTest"/>
+          <include name="Report"/>
+          <include name="MethodGetName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC01Test -->
+      <class name="scripts.TC07Test">
+        <methods>
+          <include name="RedTapeFinalCartPageTest"/>
+          <include name="afterClass"/>
+          <include name="Report"/>
+          <include name="MethodGetName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC07Test -->
+      <class name="scripts.TC08Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Report"/>
+          <include name="RedTapeCheckoutPageTest"/>
+          <include name="MethodGetName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC08Test -->
+      <class name="scripts.TC05Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="RedTapeFootWearPageTest"/>
+          <include name="Report"/>
+          <include name="MethodGetName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC05Test -->
+      <class name="scripts.TC03Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Report"/>
+          <include name="MethodGetName"/>
+          <include name="RedTapeProductsPageTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- scripts.TC03Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
